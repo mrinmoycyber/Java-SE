@@ -1,0 +1,26 @@
+//Searching an Element
+
+//Searching can be done only if the elements are unique or distinct.. there are no duplicates
+
+package com.mrinu;
+
+import java.util.Scanner;
+
+public class SearchingElement {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int A[] = { 3, 9, 7, 8, 15, 5, 4, 10 };
+		int key;
+		System.out.println("Enter a Key");
+		key = sc.nextInt();
+		for (int i = 0; i < A.length; i++) {
+			if (key == A[i]) {
+				System.out.println("Element Found at : "+ i);
+				System.exit(0); // stop searching
+			}
+		}
+		System.out.println("Not Found");
+	}
+
+}
