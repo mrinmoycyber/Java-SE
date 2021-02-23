@@ -10,8 +10,8 @@ class Phone {
 	}
 }
 
-interface ICamera {
-	void click();
+interface ICamera {     //If we dont overriding this method, then the class became abstract
+	void click();   
 
 	void record();
 }
