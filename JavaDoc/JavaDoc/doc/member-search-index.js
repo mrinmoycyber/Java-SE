@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.book","c":"Book","l":"available(String)","u":"available(java.lang.String)"},{"p":"com.book","c":"Book","l":"Book(String)","u":"%3Cinit%3E(java.lang.String)"},{"p":"com.book","c":"Book","l":"getName(int)"},{"p":"com.book","c":"Book","l":"issue(int)"}];updateSearchResults();
