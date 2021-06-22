@@ -19,7 +19,7 @@ public class ListDemo {
 		al1.set(6, 100); // Change the element at index 6
 
 		// I want to know that it contains value 60 or not and it will return true or false
-		System.out.println(al1.contains(50));
+		System.out.println(al1.contains(60));
 
 		// It will help us to find the element at index
 		System.out.println(al1.get(5));
