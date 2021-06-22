@@ -31,7 +31,7 @@ public class ListDemo {
 
 		/**
 		 * Scope resolution System.out is a reference and then println as a method
-		 * actually it becomes a expression. So, forEach loop utilize this println of
+		 * actually it becomes an expression. So, forEach loop utilize this println of
 		 * System.out
 		 */
 
