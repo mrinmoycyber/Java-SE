@@ -26,7 +26,7 @@ public class ListDemo {
 //		ListIterator<Integer> it=al1.listIterator();
 //		
 //		while(it.hasNext()) { // It will stop when there is no elements
-//			System.out.println(it.next());
+//			System.out.println(it.next());  // It will give us the current element and the move to the next element
 //		}
 
 		//Converting a while loop to for loop. Here we don't need an updation in for loop
