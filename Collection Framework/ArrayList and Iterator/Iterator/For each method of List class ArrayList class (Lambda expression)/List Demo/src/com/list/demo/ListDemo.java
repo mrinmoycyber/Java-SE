@@ -37,7 +37,8 @@ public class ListDemo {
 
 //		al1.forEach(System.out::println);
 
-		al1.forEach(n -> show(n)); // If a number is greater than 60, it will print the values
+		al1.forEach(n -> show(n)); /* It will scan through all the elements of our list.
+		                            But it will calll show method and it will print only these elements which are greater than 60*/
 
 	}
 
