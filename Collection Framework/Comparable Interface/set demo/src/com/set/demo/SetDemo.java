@@ -29,7 +29,7 @@ class Point implements Comparable {
 
 	public int compareTo(Object o) { /*
 										 * When we say implements interface, We have to override the method i.e
-										 * compareTo and remember parameter type should be object because this is the
+										 * compareTo and remember parameter type should be an object because this is the
 										 * signature of the method is present in comparable
 										 */
 		Point p = (Point) o;
