@@ -57,7 +57,7 @@ public class ObjectDemo {
 		FileInputStream fis = new FileInputStream("C:/Users/Mrinu/Student3.txt");
 		ObjectInputStream ois = new ObjectInputStream(fis);
 
-		Student s = (Student)ois.readObject();
+		Student s = (Student)ois.readObject();    
 		
 		System.out.println(s);
 		
