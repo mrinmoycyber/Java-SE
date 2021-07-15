@@ -57,7 +57,9 @@ public class ObjectDemo {
 		FileInputStream fis = new FileInputStream("C:/Users/Mrinu/Student3.txt");
 		ObjectInputStream ois = new ObjectInputStream(fis);
 
-		Student s = (Student)ois.readObject();    
+		Student s = (Student)ois.readObject();    // It will read the entire object. So, I don't have to worry how to read it... 
+		                                          //I don't have to store value by value and retrieve value by value. Complete object will store and 
+		                                          // complete object we can retrieve.
 		
 		System.out.println(s);
 		
